@@ -1,0 +1,155 @@
+nc-2e-3560g-48-1#sho inventory ?
+  WORD  Entity name
+  raw   Show every entity in the container hierarchy
+  |     Output modifiers
+  <cr>
+
+nc-2e-3560g-48-1#sho inventory
+
+nc-2e-3560g-48-1#sho run?
+running-config
+
+nc-2e-3560g-48-1#sho running-config ?
+  all        Configuration with defaults
+  brief      configuration without certificate data
+  full       full configuration
+  identity   Show identity profile/policy information
+  interface  Show interface configuration
+  map-class  Show map class information
+  partition  Configuration corresponding a partition
+  view       View options
+  vlan       Show L2 VLAN information
+  |          Output modifiers
+  <cr>
+
+nc-2e-3560g-48-1#sho run int ?
+  Async              Async interface
+  Auto-Template      Auto-Template interface
+  BVI                Bridge-Group Virtual Interface
+  CTunnel            CTunnel interface
+  Dialer             Dialer interface
+  Filter             Filter interface
+  Filtergroup        Filter Group interface
+  GigabitEthernet    GigabitEthernet IEEE 802.3z
+  Group-Async        Async Group interface
+  GroupVI            Group Virtual interface
+  Lex                Lex interface
+  Loopback           Loopback interface
+  Null               Null interface
+  Port-channel       Ethernet Channel of interfaces
+  Portgroup          Portgroup interface
+  Pos-channel        POS Channel of interfaces
+  Tunnel             Tunnel interface
+  Vif                PGM Multicast Host interface
+  Virtual-Template   Virtual Template interface
+  Virtual-TokenRing  Virtual TokenRing
+  Vlan               Catalyst Vlans
+  fcpa               Fiber Channel
+
+nc-2e-3560g-48-1#sho run int
+nc-2e-3560g-48-1#sho run int g?
+GigabitEthernet  Group-Async  GroupVI
+
+nc-2e-3560g-48-1#sho run int g
+nc-2e-3560g-48-1#sho run int gigabitEthernet ?
+  <0-0>  GigabitEthernet interface numbernc-2e-3560g-48-1#sho run int gigabitEthernet 0
+% Incomplete command.
+
+nc-2e-3560g-48-1#sho run int gigabitEthernet 0?
+/nc-2e-3560g-48-1#sho run int gigabitEthernet 0/
+nc-2e-3560g-48-1#clear ?
+  aaa                Clear AAA values
+  access-list        Clear access list statistical information
+  access-template    Access-template
+  adjacency          Adjacent nodes
+  archive            Clear archive data
+  arp-cache          Clear the entire ARP cache
+  authentication     Clear specified Auth Manager sessions
+  cdp                Reset cdp information
+  cef                Cisco Express Forwarding
+  cns                CNS agents
+  control-plane      clear control-plane counters
+  controllers        Clear interface controller info
+  counters           Clear counters on one or all interfaces
+  crypto             Encryption subsystem
+  dot1x              Clear 802.1x information
+  eap                Clear specified EAP details
+  eigrp              EIGRP clear commands
+  energywise         Clear EnergyWise information
+  eou                EAPoUDP
+  errdisable         Clear error disable from an interface/vlan
+  host               Delete host table entries
+  interface          Clear the hardware logic on an interface
+  ip                 IP
+  ipc                Interprocess communications commands
+  ipv6               IPv6
+  kerberos           Clear Kerberos Values
+  l2protocol-tunnel  clear Layer 2 protocol tunnel
+  lacp               Port channel information
+  line               Reset a terminal line
+  lldp               Reset lldp information
+  logging            Clear logging buffer
+  mac                MAC forwarding table
+  memory             Memory counters
+  mls                mls keyword
+  netconf            NETCONF
+  nmsp               Clear NMSP traffic counters
+  pagp               Port channel information
+  parser             Clear parser data
+  port-security      Clear secure information
+  radius             Clears radius server information
+  spanning-tree      Clear spanning tree parameters
+  tcp                Clear a TCP connection or statistics
+  vmps               VMPS statistics
+  vtp                Clear VTP items
+  xdr                XDR information
+nc-2e-3560g-48-1#clear counters ?
+  Async              Async interface
+  Auto-Template      Auto-Template interface
+  BVI                Bridge-Group Virtual Interface
+  CTunnel            CTunnel interface
+  Dialer             Dialer interface
+  Filter             Filter interface
+  Filtergroup        Filter Group interface
+  GigabitEthernet    GigabitEthernet IEEE 802.3z
+  Group-Async        Async Group interface
+  GroupVI            Group Virtual interface
+  Line               Terminal line
+  Loopback           Loopback interface
+  Null               Null interface
+  Port-channel       Ethernet Channel of interfaces
+  Portgroup          Portgroup interface
+  Pos-channel        POS Channel of interfaces
+  Tunnel             Tunnel interface
+  Vif                PGM Multicast Host interface
+  Virtual-Template   Virtual Template interface
+  Virtual-TokenRing  Virtual TokenRing
+  Vlan               Catalyst Vlans
+  fcpa               Fiber Channel
+  <cr>
+
+nc-2e-3560g-48-1#config
+nc-2e-3560g-48-1#config
+nc-2e-3560g-48-1#configure
+nc-2e-3560g-48-1#configure ter
+nc-2e-3560g-48-1#configure terminal ?
+  revert  Parameters for reverting the configuration
+  <cr>
+
+nc-2e-3560g-48-1#configure terminal
+nc-2e-3560g-48-1#write ?
+  core      Write Core File
+  erase     Erase NV memory
+  memory    Write to NV memory
+  network   Write to network TFTP server
+  terminal  Write to terminal
+  <cr>
+
+
+  
+
+
+
+
+
+
